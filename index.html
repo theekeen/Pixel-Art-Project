@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pixel Art Maker!</title>
+    <title>Pixel Art Maker</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Lab: Pixel Art Maker</h1>
-
-    <h2>Choose Grid Size</h2>
-    <form id="sizePicker">
-        Grid Height:
-        <input type="number" id="inputHeight" name="height" min="1" value="1">
-        Grid Width:
-        <input type="number" id="inputWeight" name="width" min="1" value="1">
-        <input type="submit">
-    </form>
-
-    <h2>Pick A Color</h2>
-    <input type="color" id="colorPicker">
-
-    <h2>Design Canvas</h2>
-    <table id="pixelCanvas"></table>
+    <h1>Gil's: Pixel Art Maker</h1>
+    <div class="controls">
+        <button type="button" id="reset"></button>
+        <label class="builder"><div>Row</div>
+            <button type="button" id="remove-row" value="10">-</button>
+            <button type="button" id="add-row" value="10">+</button>
+            <input type="number" id="input-rows" name="height" min="1" max="150" value="10">
+        </label>
+        <label class="builder"><div>Column</div>
+            <button type="button" id="remove-column" value="10">-</button>
+            <button type="button" id="add-column" value="10">+</button>
+            <input type="number" id="input-columns" name="Width" min="1" max="150" value="10">
+        </label>
+        <div class="builder">
+            <button type="button" id="clear-grid">Clear Grid</button>
+            <button type="button" id="create-grid">Create Grid</button>
+        </div>
+        <input type="color" id="color-picker">
+    </div>
+    <table id="pixel-canvas"></table>
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
