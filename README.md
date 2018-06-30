@@ -2,7 +2,7 @@
 
 By Gilbert Keen
 
-This is the final project in Udacity's Google Developer Challenge Scholarship: Front-End Web Dev program; a Google  Africa sponsored scholarship that Ireceived.
+This is the final project in Udacity's Google Developer Challenge Scholarship: Front-End Web Dev program;a Google Africa sponsored scholarship that I received.
 
 ## Instructions
 The aim of this project is to use the front-end basics learnt throughout the course to build a pixel art maker
@@ -18,6 +18,8 @@ The project instructions was as follows:
 * CSS
 * JavaScript
 * jQuery
+
+## Link to the app: [Github](https://theekeen.github.io/Pixel-Art-Project)
 
 
 
