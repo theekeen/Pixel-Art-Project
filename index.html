@@ -10,9 +10,13 @@
     <div class="controls">
         <button type="button" id="reset">Reset</button>
         <label class="builder"><div>Row</div>
+            <button type="button" id="remove-row" value="10">-</button>
+            <button type="button" id="add-row" value="10">+</button>
             <input type="number" id="input-rows" name="height" min="1" max="150" value="10">
         </label>
         <label class="builder"><div>Column</div>
+            <button type="button" id="remove-column" value="10">-</button>
+            <button type="button" id="add-column" value="10">+</button>
             <input type="number" id="input-columns" name="Width" min="1" max="150" value="10">
         </label>
         <div class="builder">
@@ -23,10 +27,7 @@
         <input type="color" id="colorPicker">
     </div>
     <table id="pixel-canvas"></table>
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="designs.js"></script>
 </body>
 </html>
